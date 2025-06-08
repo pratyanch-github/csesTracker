@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- Define Firebase config before your app script -->
+  <script>
+    window.__firebase_config = JSON.stringify({
+      apiKey: "AIzaSyA5AzD8iuyVp1aPR0XpBFbuAXLubkYbnng",
+      authDomain: "csestracker-data.firebaseapp.com",
+      projectId: "csestracker-data",
+      storageBucket: "csestracker-data.firebasestorage.app",
+      messagingSenderId: "683198460023",
+      appId: "1:683198460023:web:de8a138968c7a8be291672"
+    });
+    window.__app_id = "csestracker"; // Optional
+  </script>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
